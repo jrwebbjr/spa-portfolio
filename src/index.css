@@ -3,3 +3,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Voodoo';
+  src: local('Voodoo'), url('../public/fonts/Voodoo.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SHS';
+  src: local('Stolen-Hand-Sketches'), url('../public/fonts/Stolen-Hand-Sketches.otf') format('opentype');
+}

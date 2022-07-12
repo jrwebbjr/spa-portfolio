@@ -17,6 +17,7 @@ module.exports = {
       'pi-yellow' : '#fdfd96',
       'pi-purple' : '#fd96fd',
       'pi-blue' : '#96fdfd',
+      'white': '#FFFFFF',
     },
     extend: {},
   },

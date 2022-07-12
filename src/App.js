@@ -22,8 +22,8 @@ function App() {
             </svg>
           </div>
         </section>
-        <section>
-          <div>
+        <section className=''>
+          <div className='flex flex-col bg-white w-[700px] h-[500px]'>
             <div>
 
             </div>

@@ -17,13 +17,13 @@ function App() {
         <div className='flex flex-col'>
           <section className='flex w-[600px] h-[500px]'>
             <div className='bg-pi-yellow w-[400px] h-[400px] flex justify-center items-center rotate-6'>
-              <h1 className='font-voodoo bg-scribble bg-contain text-[28px] m-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim reiciendis omnis exercitationem ut distinctio quia, quo blanditiis, veritatis aliquam laboriosam quaerat rerum doloremque pariatur repudiandae fugit suscipit provident quibusdam tempora.</h1>
+              <h1 className='font-manic bg-scribble bg-contain text-[28px] m-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim reiciendis omnis exercitationem ut distinctio quia, quo blanditiis, veritatis aliquam laboriosam quaerat rerum doloremque pariatur repudiandae fugit suscipit provident quibusdam tempora.</h1>
             </div>
-            <div className='bg-pi-blue w-[400px] h-[400px] -ml-[350px] flex flex-col -rotate-[22deg] p-3'>
-              <h1 className='font-voodoo-bold text-xl text-gray-700'>//TODO:</h1>
-              <ul className='font-manic text-xl'> 
+            <div className='bg-pi-blue w-[400px] h-[400px] -ml-[350px] flex flex-col -rotate-[22deg] pl-[35px] pt-2'>
+              <ol className='font-manic text-xl text-gray-600 list-disc'> Todo:
                 <li>Make a portfolio that looks like a sloppy desk.</li>
-              </ul>
+                <li>Get a Job</li>
+              </ol>
             </div>
             <div className='bg-pi-purple w-[400px] h-[400px] -ml-[400px] mt-10 flex items-center rotate-12'>
               <h1 className='font-voodoo text-[70px] m-5'>Stop Wasting Post It Notes!</h1>
@@ -48,9 +48,11 @@ function App() {
             </div>
           </section>
         </div>
-        <section className='flex w-[800px] h-[1000px] bg-gray-100'>
-          <div className='flex w-[900px] h-[1200px] m-10 font-manic text-5xl leading-[75px]'><h1>{view}</h1></div>
+        <section className='flex w-[800px] h-[1000px] bg-gray-100 -rotate-2'>
+          <div className='flex w-[900px] h-[1200px] m-10 font-voodoo-bold text-5xl leading-[75px]'><h1>{view}</h1>
+          </div>
         </section>
+        <div className='bg-pi-blue w-[400px] h-[400px] -ml-[400px] mt-[700px] flex flex-col -rotate-[22deg] pl-[35px] pt-2'></div>
       </div>
     </>
   );

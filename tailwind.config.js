@@ -18,6 +18,7 @@ module.exports = {
         'shs': ['Stolen-Hand-Sketches', 'sans'],
         'shs-quirky': ['Stolen-Hand-Quirky', 'sans'],
         'shs-alt': ['Stolen-Hand-Alternates', 'sans'],
+        'poppy': ['Poppy-Fineliner', 'sans'],
       },
       colors: {
         'pi-yellow' : '#fdfd96',

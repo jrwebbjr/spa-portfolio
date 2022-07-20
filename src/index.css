@@ -4,12 +4,44 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Fonts imported from public folder to use in theme */
 @font-face {
-  font-family: 'Voodoo';
+  font-family: 'voodoo';
   src: local('Voodoo'), url('../public/fonts/Voodoo.otf') format('opentype');
 }
 
 @font-face {
-  font-family: 'SHS';
+  font-family: 'voodoo-bold';
+  src: local('Voodoo-Bold'), url('../public/fonts/Voodoo-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'manic';
+  src: local('MANIC'), url('../public/fonts/MANIC.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'manic-sketch';
+  src: local('MANIC-SKETCHES'), url('../public/fonts/MANIC-Sketches.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'poppy';
+  src: local('Poppy-Fineliner'), url('../public/fonts/Poppy-Fineliner.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'shs';
   src: local('Stolen-Hand-Sketches'), url('../public/fonts/Stolen-Hand-Sketches.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'shs-quirky';
+  src: local('Stolen-Hand-Quirky'), url('../public/fonts/Stolen-Hand-Quirky.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'shs-alt';
+  src: local('Stolen-Hand-Alternates'), url('../public/fonts/Stolen-Hand-Alternates.otf') format('opentype');
 }

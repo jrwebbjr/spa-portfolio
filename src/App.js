@@ -41,6 +41,13 @@ function App() {
               <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4'>About Me</h1>
               <p className='font-voodoo text-[26px]'>I am a fullstack software engineer focusing mainly on design and front end development. When I am not behind a computer screen I enjoy being creative through many other outlets including art, photography, music, and woodworking. I also enjoy the great outdoors and most of all spending time with my family.</p>
             </div>
+            <div className='lg:hidden w-[360px] h-[180px]'></div>
+            <div className='lg:hidden bg-pi-purple w-[360px] h-[360px] justify-center items-center'>
+              <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4'>Skills</h1>
+              <p className='font-voodoo text-[26px]'>JS | HTML | CSS</p>
+            </div>
+
+            
           </section>
           <section className='flex'>
             <div className='flex flex-col bg-white w-[800px] h-[1000px] -rotate-[10deg] -mt-10 items-center gap-10'>

@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm': '360px',
+        'md': '768px',
+        'lg': '1366px',
+      },
       backgroundImage: {
         'woodgrain': "url('/public/woodgrain.jpg')",
         'vine': "url('/public/PNG/voodoo_pumpkin-vine-01.png')",

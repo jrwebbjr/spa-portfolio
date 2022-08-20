@@ -32,6 +32,9 @@ module.exports = {
         'pi-blue' : '#96fdfd',
         'pi-green' : '#84c781',
       },
+      boxShadow: {
+        'untaped': '10px 5px 0px rgba(0, 0, 0, 0.1)',
+      }
     },
     
   

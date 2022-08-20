@@ -36,14 +36,22 @@ function App() {
             </div>
           </section>
           <section>
-            <div className='bg-pi-green w-[360px] h-[360px] flex justify-center items-center md:w-[650px] md:h-[650px] lg:hidden'>
-              <div className=''>
-              <div className='sm-hidden md:w-[100px] md:h-[50px] md:bg-slate-600 md:opacity-10 md:-rotate-[57deg] md:border-dotted md:border-slate-600 md:border-4'></div>
+            <div className='bg-pi-green flex items-center justify-center w-[360px] h-[360px] md:w-[650px] md:h-[650px] lg:hidden'>
+              <div className='flex items-center justify-center w-[360px] h-[360px] md:w-[650px] md:h-[650px] lg:hidden'>
+                <div className='flex items-center justify-center w-[360px] h-[360px] md:w-[650px] md:h-[650px]'>
+
+                  <div className='z-10 sm-hidden md:w-[145px] md:h-[150px] md:-mt-[400px] md:-mr-[80px] md:bg-slate-600 md:opacity-10 md:-rotate-[57deg] md:border-dotted md:border-slate-600 md:border-x-8 lg:hidden'>
+                  </div>
+
+                  <div className='z-0 w-[360px] h-[360px] border-white border-x-[25px] bg-joe bg-center bg-contain md:w-[400px] md:h-[500px] justify-center items-center md:-rotate-6 md:flex md:justify-center md:items-center md:shadow-untaped lg:hidden' alt='Image of Joe Webb'>
+                  </div>
+
+                  <div className='z-30 sm-hidden md:hidden md:w-[145px] md:h-[150px] md:-mb-[400px] md:-ml-[70px] md:bg-slate-600 md:opacity-10 md:-rotate-[57deg] md:border-dotted md:border-slate-600 md:border-x-8 lg:hidden'>
+                  </div>
               </div>
-            <div className='z-0 w-[360px] h-[360px] bg-joe bg-cover md:w-[500px] md:h-[500px] md:-rotate-6 md:flex md:justify-center md:items-center lg:hidden' alt='Image of Joe Webb'></div>
-            <div className='sm-hidden md:w-[80px] md:h-[50px] md:bg-slate-600 md:opacity-10 md:-rotate-[57deg] md:border-dotted md:border-slate-600 md:border-4'></div>
             </div>
             {/* <div className='lg:hidden w-[360px] h-[180px]'></div> */}
+            </div>
             <div className='bg-pi-blue w-[360px] h-[360px] flex flex-col justify-center items-center md:w-[500px] md:h-[500px] lg:hidden'>
               <h1 className='flex justify-center items-center font-voodoo-bold text-5xl p-4'>About Me</h1>
               <p className='flex justify-center items-center font-voodoo text-[26px]'>I am a fullstack software engineer focusing mainly on design and front end development. When I am not behind a computer screen I enjoy being creative through many other outlets including art, photography, music, and woodworking. I also enjoy the great outdoors and most of all spending time with my family.</p>

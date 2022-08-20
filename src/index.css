@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 
-/* Fonts imported from public folder to use in theme */
+/* Fonts imported from public folder to use in tailwind theme */
 @font-face {
   font-family: 'voodoo';
   src: local('Voodoo'), url('../public/fonts/Voodoo.otf') format('opentype');

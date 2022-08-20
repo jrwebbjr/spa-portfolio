@@ -11,6 +11,7 @@ module.exports = {
         'lg': '1366px',
       },
       backgroundImage: {
+        'joe': "url('/public/joe.jpg')",
         'woodgrain': "url('/public/woodgrain.jpg')",
         'vine': "url('/public/PNG/voodoo_pumpkin-vine-01.png')",
         'skull': "url('/public/PNG/voodoo_skull-01.png')",

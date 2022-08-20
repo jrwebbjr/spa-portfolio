@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div className='w-screen h-screen bg-woodgrain bg-cover lg:overflow-hidden flex'>
+      <div className='w-screen h-screen lg:bg-woodgrain lg:bg-cover lg:overflow-hidden flex'>
         <div className=''>
           <section className='flex w-max h-max'>
             <div className='hidden lg:bg-pi-green lg:w-[300px] lg:h-[300px] lg:flex lg:justify-center lg:items-center lg:rotate-6'>
@@ -36,7 +36,10 @@ function App() {
             </div>
           </section>
           <section>
-            <div className='lg:hidden w-[360px] h-[180px]'></div>
+            <div className='bg-pi-blue w-[360px] h-[360px] flex justify-center items-center lg:hidden'>
+            <div className='bg-joe w-[300px] h-[300px] flex justify-center items-center lg:hidden'></div>
+            </div>
+            {/* <div className='lg:hidden w-[360px] h-[180px]'></div> */}
             <div className='lg:hidden bg-pi-blue w-[360px] h-[360px] justify-center items-center'>
               <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4'>About Me</h1>
               <p className='font-voodoo text-[26px]'>I am a fullstack software engineer focusing mainly on design and front end development. When I am not behind a computer screen I enjoy being creative through many other outlets including art, photography, music, and woodworking. I also enjoy the great outdoors and most of all spending time with my family.</p>
@@ -49,7 +52,7 @@ function App() {
 
             
           </section>
-          <section className='flex'>
+          <section className='hidden lg:flex'>
             <div className='flex flex-col bg-white w-[800px] h-[1000px] -rotate-[10deg] -mt-10 items-center gap-10'>
               <div className='flex gap-20 mt-12'>
                 <button onClick={() => setView(AboutMe)} className='font-manic text-blue-800 text-8xl'>About ME</button>
@@ -62,11 +65,12 @@ function App() {
             </div>
           </section>
         </div>
-        <section className='flex w-[800px] h-[1000px] bg-white -rotate-2'>
-          <div className='flex w-[900px] h-[1200px] m-10 font-voodoo-bold text-5xl leading-[75px]'><h1>{view}</h1>
-          </div>
+        <section className='hidden lg:flex lg:w-[800px] lg:h-[1000px] lg:bg-white lg:-rotate-2'>
+          <div className='flex w-[900px] h-[1200px] m-10 font-voodoo-bold text-5xl leading-[75px]'>
+            <h1>{view}</h1>
+            <div className='hidden lg:bg-pi-blue lg:w-[300px] lg:h-[300px] lg:-ml-[400px] lg:mt-[700px] lg:flex lg:flex-col lg:-rotate-[22deg] lg:pl-[35px] lg:pt-2'></div>
+          </div>lg:
         </section>
-        <div className='bg-pi-blue w-[300px] h-[300px] -ml-[400px] mt-[700px] flex flex-col -rotate-[22deg] pl-[35px] pt-2'></div>
       </div>
     </>
   );

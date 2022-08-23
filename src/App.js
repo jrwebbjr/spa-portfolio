@@ -86,16 +86,16 @@ function App() {
               <p className='flex justify-center items-center font-voodoo text-[26px] md:text-5xl md:p-10'>
                 <ul>
                   <li>
-                    <a href>Linkdin</a>
+                    <a href="">Linkdin</a>
                   </li>
                   <li>
-                    <a href>Facebook</a>
+                    <a href="">Facebook</a>
                   </li>
                   <li>
-                    <a href>Twitter</a>
+                    <a href="">Twitter</a>
                   </li>
                   <li>
-                    <a href>Email</a>
+                    <a href="">Email</a>
                   </li>
                 </ul>
               </p>

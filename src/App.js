@@ -54,17 +54,17 @@ function App() {
               </div>
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
-            <div className='bg-pi-blue w-[360px] h-[360px] flex flex-col justify-center items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-blue-500 lg:hidden'>
+            <div className='bg-pi-blue w-[360px] h-[360px] flex flex-col justify-center items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-blue-400 lg:hidden'>
               <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl'>About Me</h1>
               <p className='flex justify-center items-center font-voodoo text-[26px] md:text-5xl md:p-10'>I am a fullstack software engineer focusing mainly on design and front end development. When I am not behind a computer screen I enjoy being creative through many other outlets including art, photography, music, and woodworking. I also enjoy the great outdoors and most of all spending time with my family.</p>
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
-            <div className='bg-pi-purple w-[360px] h-[360px] justify-center items-center pt-4 md:w-[650px] md:h-[650px] md:shadow-md md:shadow-purple-500 lg:hidden'>
+            <div className='bg-pi-red w-[360px] h-[360px] justify-center items-center pt-4 md:w-[650px] md:h-[650px] md:shadow-md md:shadow-red-700 lg:hidden'>
               <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl md:pt-10'>Skills</h1>
               <p className='font-voodoo text-[26px] md:text-5xl md:p-10'>I am skilled in JavaScript, HTML, CSS, NodeJs, ExpressJs, React, Tailwind CSS, Bootstrap, MongoDB, Mongoose, Git, Github, NoSQL Databases, Agile Scrum Methodologies.</p>
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
-            <div className='bg-pi-red w-[360px] h-[360px] flex flex-col items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-red-700 lg:hidden'>
+            <div className='bg-pi-purple w-[360px] h-[360px] flex flex-col items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-purple-500 lg:hidden'>
               <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl md:pt-10'>Projects</h1>
               <p className='flex justify-center items-center font-voodoo text-[26px] md:text-5xl md:p-10'>
                 <ul>
@@ -84,18 +84,21 @@ function App() {
             <div className='bg-pi-yellow w-[360px] h-[360px] flex flex-col items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-yellow-600 lg:hidden'>
               <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl md:pt-10'>Find Me</h1>
               <p className='flex justify-center items-center font-voodoo text-[26px] md:text-5xl md:p-10'>
-                <ul>
+                <ul className='gap-10 '>
                   <li>
-                    <a href="">Linkdin</a>
+                    <a href="../public/resume.pdf" target="_blank">Resumé</a>
                   </li>
                   <li>
-                    <a href="">Facebook</a>
+                    <a href="https://www.linkedin.com/in/joewebbjr/" target="_blank">Linkdin</a>
                   </li>
                   <li>
-                    <a href="">Twitter</a>
+                    <a href="https://github.com/jrwebbjr" target="_blank">Github</a>
                   </li>
                   <li>
-                    <a href="">Email</a>
+                    <a href="https://twitter.com/jrwebbjr" target="_blank">Twitter</a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/iamjrwebb/" target="_blank">Instagram</a>
                   </li>
                 </ul>
               </p>

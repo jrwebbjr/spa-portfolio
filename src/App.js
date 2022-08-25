@@ -7,9 +7,11 @@ import Skills from './components/Skills';
 import './index.css';
 import resume from './static/resume.pdf';
 import { ReactComponent as GithubIcon } from '../src/static/icons8-github-squared.svg';
-import { ReactComponent as LightBulb } from '../src/static/fineliner_light-bulb-01.svg';
+import { ReactComponent as Eye } from '../src/static/fineliner_eye-01.svg';
 import { ReactComponent as Skull } from '../src/static/voodoo_skull-01.svg';
-
+import { ReactComponent as Asterix } from '../src/static/fineliner_asterix-02.svg';
+import { ReactComponent as Bolt } from '../src/static/fineliner_electric-03.svg';
+import { ReactComponent as Star } from '../src/static/fineliner_star-05.svg';
 
 
 function App() {
@@ -33,12 +35,14 @@ function App() {
             <div className='hidden lg:bg-pi-purple lg:w-[300px] lg:h-[300px] lg:-ml-[200px] lg:mt-10 lg:flex lg:items-center lg:rotate-12'>
               <h1 className='lg:font-voodoo lg:text-[50px] lg:m-5'>Stop Wasting Post It Notes!</h1>
             </div>
-            <div className='bg-pi-yellow w-[360px] h-[360px] mt-[100px] flex justify-evenly items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-yellow-600 lg:w-[300px] lg:h-[300px] lg:-ml-[400px] lg:mt-4 lg:pt-5 lg:-rotate-2'>
-              <h1 className='font-voodoo-bold text-[120px] w-[250px] md:ml-10 md:text-[200px] lg:text-[100px] lg:w-[250px] leading-none flex justify-center items-center'>Joe Webb Jr.</h1>
-            <div className='flex justify-center fill-black mt-[200px] rotate-12 md:w-[190px] md:h-auto md:mt-[380px] lg:mt-[150px]'>
-              <Skull />
-              </div>
-            </div>
+            <div className='bg-pi-yellow w-[360px] h-[360px] mt-[100px] flex items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-yellow-600 lg:w-[300px] lg:h-[300px] lg:-ml-[400px] lg:mt-4 lg:pt-5 lg:-rotate-2'>
+              <div className='flex justify-evenly items-center md:w-[650px] md:h-[650px] p-2'>
+                <h1 className='font-voodoo-bold text-[120px] w-[250px] md:text-[200px] md:w-[400px] lg:text-[100px] lg:w-[250px] leading-none flex'>Joe Webb Jr.</h1>
+                <div className='flex justify-center mt-[180px] fill-black md:w-max md:h-auto md:mt-[280px] lg:mt-[140px] lg:w-auto'>
+                  <Skull />
+                </div>
+               </div> 
+             </div> 
             <div className='w-[360px] h-[360px] md:w-[650px] md:h-[650px] lg:hidden'></div>
           </section>
           <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
@@ -60,48 +64,65 @@ function App() {
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
             <div className='bg-pi-blue w-[360px] h-[360px] flex flex-col justify-center items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-blue-400 lg:hidden'>
-              <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl'>About Me</h1>
+              <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl'>
+                <Asterix className='m-3 h-[30px] w-auto md:h-[45px]' />
+                About Me
+                <Asterix className='m-3 h-[30px] w-auto md:h-[45px]' />
+              </h1>
               <p className='flex justify-center items-center font-voodoo text-[26px] md:text-5xl md:p-10'>I am a fullstack software engineer focusing mainly on design and front end development. When I am not behind a computer screen I enjoy being creative through many other outlets including art, photography, music, and woodworking. I also enjoy the great outdoors and most of all spending time with my family.</p>
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
             <div className='bg-pi-red w-[360px] h-[360px] justify-center items-center pt-4 md:w-[650px] md:h-[650px] md:shadow-md md:shadow-red-700 lg:hidden'>
-              <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl md:pt-10'>Skills</h1>
+              <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl md:pt-10'>
+                <Bolt className='m-3 h-[30px] md:h-[45px] w-auto' />
+                Skills
+                <Bolt className='m-3 h-[30px] md:h-[45px] w-auto' />
+              </h1>
               <p className='font-voodoo text-[26px] md:text-5xl md:p-10'>I am skilled in JavaScript, HTML, CSS, NodeJs, ExpressJs, React, Tailwind CSS, Bootstrap, MongoDB, Mongoose, Git, Github, NoSQL Databases, Agile Scrum Methodologies.</p>
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
             <div className='bg-pi-purple w-[360px] h-[360px] flex flex-col items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-purple-500 lg:hidden'>
-              <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl md:pt-10'>Projects</h1>
+              <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl md:pt-10'>
+                <Star className='m-3 h-[30px] w-auto md:h-[45px]' />  
+                Projects
+                <Star className='m-3 h-[30px] w-auto md:h-[45px]' />
+              </h1>
               <p className='flex justify-center items-center font-voodoo text-[26px] md:text-5xl md:p-10'>
                 <ul className='flex flex-col justify-evenly items-center md:gap-8'>
-                  <li className='flex justify-evenly items-center hover:font-voodoo-bold hover:text-blue-800'>
-                    Apply
+                  <li className='flex justify-evenly items-center hover:font-voodoo-bold hover:text-blue-800 hover:text-4xl md:hover:text-7xl'>
+                    <a href="https://google.com">Apply</a>
                     <a className='hover:text-blue-800' href="https://github.com/jrwebbjr/interview-tracker-app-backend" target="blank">
                       <div className='hover:text-red-700'>
                         <GithubIcon />
                       </div>
                     </a>
-                    
                   </li>
-                  <li className='flex justify-evenly items-center hover:font-voodoo-bold hover:text-blue-800'>
-                    The Healing Chi
-                    <a href="https://github.com/Nobuns-inc/Yoga-App"></a>
-                    <div className='hover:fill-red-700'>
-                    <GithubIcon />
-                    </div>
+                  <li className='flex justify-evenly items-center hover:font-voodoo-bold hover:text-blue-800 hover:text-4xl md:hover:text-7xl'>
+                    <a href="https://google.com">Retrospective</a>
+                    <a className='hover:text-blue-800' href="https://github.com/jrwebbjr/Retrospective" target="blank">
+                      <div className='hover:text-red-700'>
+                        <GithubIcon />
+                      </div>
+                    </a>
                   </li>
-                  <li className='flex justify-evenly items-center hover:font-voodoo-bold active:font-voodoo-bold hover:text-blue-800 active:text-red-700'>
-                    Retrospective
-                    <a href="https://github.com/jrwebbjr/Retrospective"></a>
-                    <div className='hover:fill-red-700'>
-                    <GithubIcon />
-                    </div>
+                  <li className='flex justify-evenly items-center hover:font-voodoo-bold hover:text-blue-800 hover:text-4xl md:hover:text-7xl'>
+                  <a href="https://google.com">Emoji Matchup</a>
+                    <a className='hover:text-blue-800' href="https://github.com/jrwebbjr/Emoji-Matchup" target="blank">
+                      <div className='hover:text-red-700'>
+                        <GithubIcon />
+                      </div>
+                    </a>
                   </li>
                 </ul>
               </p>
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
             <div className='bg-pi-yellow w-[360px] h-[360px] flex flex-col items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-yellow-600 lg:hidden'>
-              <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl md:pt-10'>Find Me</h1>
+              <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl md:pt-10'>
+                <Eye className='m-3 w-auto h-[40px] md:h-[60px]' />
+                Find Me
+                <Eye className='m-3 w-auto h-[40px] md:h-[60px]' />
+                </h1>
               <p className='flex justify-center items-center font-voodoo text-[26px] md:text-5xl md:p-10'>
                 <ul className='flex flex-col justify-evenly items-center md:gap-5'>
                   <li className='hover:font-voodoo-bold hover:text-blue-800'>

@@ -7,11 +7,10 @@ export default function Projects(){
                 <ul className='flex flex-col justify-evenly items-center md:gap-8'>
                   <li className='flex justify-evenly items-center hover:font-voodoo-bold hover:text-blue-800'>
                     Apply
-                    <a className='hover:text-blue-800' >
+                    <a href="https://github.com/jrwebbjr/interview-tracker-app-backend"></a>
                     <div className='hover:fill-red-700'>
-                        <GithubIcon href="https://github.com/jrwebbjr/interview-tracker-app-backend" target="blank" />
+                        <GithubIcon />
                     </div>
-                    </a>
                   </li>
                   <li className='flex justify-evenly items-center hover:font-voodoo-bold hover:text-blue-800'>
                     The Healing Chi

@@ -138,12 +138,12 @@ function App() {
           <section className='hidden lg:flex'>
             <div className='flex flex-col bg-white w-[800px] h-[1000px] -rotate-[10deg] -mt-10 items-center gap-10'>
               <div className='flex gap-20 mt-12'>
-                <button onClick={() => setView(AboutMe)} className='font-manic text-blue-800 text-8xl'>About ME</button>
-                <button onClick={() => setView(Skills)} className='font-manic text-blue-800 text-8xl mt-[120px]'>Skills</button>
+                <button onClick={() => setView(AboutMe)} className='font-manic text-blue-800  hover:text-red-700 text-8xl hover:text-9xl'>About ME</button>
+                <button onClick={() => setView(Skills)} className='font-manic text-blue-800 hover:text-red-700 text-8xl hover:text-9xl mt-[120px]'>Skills</button>
               </div>
               <div className='flex gap-20'>
-                <button onClick={() => setView(Projects)} className='font-manic text-blue-800 text-8xl'>Projects</button>
-                <button onClick={() => setView(FindMe)} className='font-manic text-blue-800 text-8xl mt-[120px]'>Find Me</button>
+                <button onClick={() => setView(Projects)} className='font-manic text-blue-800 hover:text-red-700 text-8xl hover:text-9xl'>Projects</button>
+                <button onClick={() => setView(FindMe)} className='font-manic text-blue-800 hover:text-red-700 text-8xl hover:text-9xl mt-[120px]'>Find Me</button>
               </div>
             </div>
           </section>

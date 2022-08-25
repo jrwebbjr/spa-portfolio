@@ -15,6 +15,7 @@ module.exports = {
         'woodgrain': "url('/public/woodgrain.jpg')",
         'vine': "url('/public/PNG/voodoo_pumpkin-vine-01.png')",
         'skull': "url('/public/PNG/voodoo_skull-01.png')",
+        'skulltop' : "url('/public/PNG/voodoo_skull-03.png')"
       },
       fontFamily: {
         'manic': ['MANIC', 'sans-serif'],

@@ -7,24 +7,27 @@ export default function Projects(){
                 <ul className='flex flex-col justify-evenly items-center md:gap-8'>
                   <li className='flex justify-evenly items-center hover:font-voodoo-bold hover:text-blue-800'>
                     Apply
-                    <a href="https://github.com/jrwebbjr/interview-tracker-app-backend"></a>
+                    <a href="https://github.com/jrwebbjr/interview-tracker-app-backend">
                     <div className='hover:fill-red-700'>
                         <GithubIcon />
                     </div>
+                    </a>
                   </li>
                   <li className='flex justify-evenly items-center hover:font-voodoo-bold hover:text-blue-800'>
                     The Healing Chi
-                    <a href="https://github.com/Nobuns-inc/Yoga-App"></a>
+                    <a href="https://github.com/Nobuns-inc/Yoga-App">
                     <div className='hover:fill-red-700'>
                         <GithubIcon />
                     </div>
+                    </a>
                   </li>
                   <li className='flex justify-evenly items-center hover:font-voodoo-bold hover:text-blue-800'>
                     Retrospective
-                    <a href="https://github.com/jrwebbjr/Retrospective"></a>
+                    <a href="https://github.com/jrwebbjr/Retrospective">
                     <div className='hover:fill-red-700'>
                         <GithubIcon />
                     </div>
+                    </a>
                   </li>
                 </ul>
               </p>

@@ -84,7 +84,7 @@ function App() {
                 Skills
                 <Bolt className='m-3 h-[30px] md:h-[45px] w-auto' />
               </h1>
-              <p className='font-voodoo text-[26px] md:text-5xl md:p-10'>I am skilled in JavaScript, HTML, CSS, NodeJs, ExpressJs, React, Tailwind CSS, Bootstrap, MongoDB, Mongoose, Git, Github, NoSQL Databases, Agile Scrum Methodologies.</p>
+              <p className='font-voodoo text-[26px] md:text-5xl md:p-10'>JavaScript | HTML | CSS | NodeJs | ExpressJs | MongoDB | React | Tailwind CSS | Bootstrap | Mongoose | Git | Github | NoSQL Databases | Agile Scrum Methodologies</p>
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
             <div className='bg-pi-purple w-[360px] h-[360px] flex flex-col items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-purple-500 lg:hidden'>

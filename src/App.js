@@ -23,19 +23,19 @@ function App() {
       <div className='w-screen h-screen flex bg-woodgrain bg-cover overflow-scroll lg:bg-woodgrain lg:bg-cover lg:overflow-hidden'>
         <div className=''>
           <section className='w-max h-max flex justify-center'>
-            <div className='hidden lg:bg-pi-green lg:w-[300px] lg:h-[300px] lg:flex lg:justify-center lg:items-center lg:rotate-6'>
+            <div className='hidden shadow-md shadow-green-800 lg:bg-pi-green lg:w-[300px] lg:h-[300px] lg:flex lg:justify-center lg:items-center lg:rotate-6'>
               <h1 className='font-manic bg-scribble bg-contain text-[20px] m-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim reiciendis omnis exercitationem ut distinctio quia, quo blanditiis, veritatis aliquam laboriosam quaerat rerum doloremque pariatur repudiandae fugit suscipit provident quibusdam tempora.</h1>
             </div>
-            <div className='hidden lg:bg-pi-blue lg:w-[300px] lg:h-[300px] lg:-ml-[260px] lg:flex lg:flex-col lg:-rotate-[22deg] lg:pl-[35px] lg:pt-2'>
+            <div className='hidden shadow-md shadow-blue-400 lg:bg-pi-blue lg:w-[300px] lg:h-[300px] lg:-ml-[260px] lg:flex lg:flex-col lg:-rotate-[22deg] lg:pl-[35px] lg:pt-2'>
               <ol className='font-manic text-xl text-gray-600 list-disc'> Todo:
                 <li>Make a portfolio that looks like a sloppy desk.</li>
                 <li>Get a Job</li>
               </ol>
             </div>
-            <div className='hidden lg:bg-pi-purple lg:w-[300px] lg:h-[300px] lg:-ml-[200px] lg:mt-10 lg:flex lg:items-center lg:rotate-12'>
+            <div className='hidden shadow-md shadow-purple-500 lg:bg-pi-purple lg:w-[300px] lg:h-[300px] lg:-ml-[200px] lg:mt-10 lg:flex lg:items-center lg:rotate-12'>
               <h1 className='lg:font-voodoo lg:text-[50px] lg:m-5'>Stop Wasting Post It Notes!</h1>
             </div>
-            <div className='bg-pi-yellow w-[360px] h-[360px] mt-[100px] flex items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-yellow-600 lg:w-[300px] lg:h-[300px] lg:-ml-[400px] lg:mt-4 lg:pt-5 lg:-rotate-2'>
+            <div className='bg-pi-yellow w-[360px] h-[360px] mt-[100px] flex items-center md:w-[650px] md:h-[650px] shadow-md shadow-yellow-600 lg:w-[300px] lg:h-[300px] lg:-ml-[400px] lg:mt-4 lg:pt-5 lg:-rotate-2'>
               <div className='flex justify-evenly items-center md:w-[650px] md:h-[650px] p-2'>
                 <h1 className='font-voodoo-bold text-[120px] w-[250px] md:text-[200px] md:w-[400px] lg:text-[100px] lg:w-[250px] leading-none flex'>Joe Webb Jr.</h1>
                 <div className='flex justify-center mt-[180px] fill-black md:w-max md:h-auto md:mt-[280px] lg:mt-[140px] lg:w-auto'>
@@ -45,7 +45,7 @@ function App() {
             </div> 
             <div className='w-[360px] h-[360px] md:w-[650px] md:h-[650px] lg:hidden'></div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
-            <div className='bg-pi-green flex items-center z-50 w-[360px] h-[360px] md:w-[650px] md:h-[650px] md:shadow-md md:shadow-green-800 lg:w-[300px] lg:h-[300px] lg:mt-0 lg:pt-5 lg:ml-10 lg:rotate-6'>
+            <div className='bg-pi-green flex items-center z-50 w-[360px] h-[360px] md:w-[650px] md:h-[650px] shadow-md shadow-green-800 lg:w-[300px] lg:h-[300px] lg:mt-0 lg:pt-5 lg:ml-10 lg:rotate-6'>
               <div className='flex items-center justify-center w-[360px] h-[360px] md:w-[650px] md:h-[650px]'>
                 <div className='flex items-center justify-center w-[360px] h-[360px] md:w-[650px] md:h-[650px] lg:w-[300px] lg:h-[300px]'>
                   <div className='z-10 sm-hidden md:w-[145px] md:h-[150px] md:-mt-[400px] md:-mr-[80px] md:bg-slate-600 md:opacity-10 md:-rotate-[57deg] md:border-dotted md:border-slate-600 md:border-x-8 lg:w-[120px] lg:h-[75px] lg:-mt-[150px]'>
@@ -69,7 +69,7 @@ function App() {
               </div>
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
-            <div className='bg-pi-blue w-[360px] h-[360px] flex flex-col justify-center items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-blue-400 lg:hidden'>
+            <div className='bg-pi-blue w-[360px] h-[360px] flex flex-col justify-center items-center md:w-[650px] md:h-[650px] shadow-md shadow-blue-400 lg:hidden'>
               <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl'>
                 <Asterix className='m-3 h-[30px] w-auto md:h-[45px]' />
                 About Me
@@ -78,7 +78,7 @@ function App() {
               <p className='flex justify-center items-center font-voodoo text-[26px] md:text-5xl md:p-10'>I am a fullstack software engineer focusing mainly on design and front end development. When I am not behind a computer screen I enjoy being creative through many other outlets including art, photography, music, and woodworking. I also enjoy the great outdoors and most of all spending time with my family.</p>
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
-            <div className='bg-pi-red w-[360px] h-[360px] justify-center items-center pt-4 md:w-[650px] md:h-[650px] md:shadow-md md:shadow-red-700 lg:hidden'>
+            <div className='bg-pi-red w-[360px] h-[360px] justify-center items-center pt-4 md:w-[650px] md:h-[650px] shadow-md shadow-red-700 lg:hidden'>
               <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl md:pt-10'>
                 <Bolt className='m-3 h-[30px] md:h-[45px] w-auto' />
                 Skills
@@ -87,7 +87,7 @@ function App() {
               <p className='font-voodoo text-[26px] md:text-5xl md:p-10'>JavaScript | HTML | CSS | NodeJs | ExpressJs | MongoDB | React | Tailwind CSS | Bootstrap | Mongoose | Git | Github | NoSQL Databases | Agile Scrum Methodologies</p>
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
-            <div className='bg-pi-purple w-[360px] h-[360px] flex flex-col items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-purple-500 lg:hidden'>
+            <div className='bg-pi-purple w-[360px] h-[360px] flex flex-col items-center md:w-[650px] md:h-[650px] shadow-md shadow-purple-500 lg:hidden'>
               <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl md:pt-10'>
                 <Star className='m-3 h-[30px] w-auto md:h-[45px]' />  
                 Projects
@@ -123,7 +123,7 @@ function App() {
               </p>
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
-            <div className='bg-pi-yellow w-[360px] h-[360px] flex flex-col items-center md:w-[650px] md:h-[650px] md:shadow-md md:shadow-yellow-600 lg:hidden'>
+            <div className='bg-pi-yellow w-[360px] h-[360px] flex flex-col items-center md:w-[650px] md:h-[650px] shadow-md shadow-yellow-600 lg:hidden'>
               <h1 className='flex justify-center items-center font-voodoo-bold text-5xl pt-4 md:text-7xl md:pt-10'>
                 <Eye className='m-3 w-auto h-[40px] md:h-[60px]' />
                 Find Me
@@ -164,7 +164,7 @@ function App() {
             </div>
           </section>
         </div>
-        <section className='hidden lg:flex lg:w-[800px] lg:h-[1000px] lg:bg-white lg:-rotate-2'>
+        <section className='hidden ml-10 lg:flex lg:w-[800px] lg:h-[1000px] lg:bg-white lg:-rotate-[5deg]'>
           <div className='flex justify-center w-[900px] h-[1200px] m-10 font-voodoo-bold text-5xl leading-[75px]'>
             {view}
           </div>

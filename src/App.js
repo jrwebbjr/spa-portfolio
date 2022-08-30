@@ -26,7 +26,7 @@ function App() {
             <div className='hidden shadow-md shadow-green-800 lg:bg-pi-green lg:w-[300px] lg:h-[300px] lg:flex lg:justify-center lg:items-center lg:rotate-6'>
               <h1 className='font-manic bg-scribble bg-contain text-[20px] m-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim reiciendis omnis exercitationem ut distinctio quia, quo blanditiis, veritatis aliquam laboriosam quaerat rerum doloremque pariatur repudiandae fugit suscipit provident quibusdam tempora.</h1>
             </div>
-            <div className='hidden shadow-md shadow-blue-400 lg:bg-pi-blue lg:w-[300px] lg:h-[300px] lg:-ml-[260px] lg:flex lg:flex-col lg:-rotate-[22deg] lg:pl-[35px] lg:pt-2'>
+            <div className='hidden shadow-md shadow-blue-400 lg:bg-pi-blue lg:w-[300px] lg:h-[300px] lg:-ml-[260px] lg:flex lg:flex-col lg:-rotate-[15deg] lg:pl-[35px] lg:pt-2'>
               <ol className='font-manic text-xl text-gray-600 list-disc'> Todo:
                 <li>Make a portfolio that looks like a sloppy desk.</li>
                 <li>Get a Job</li>
@@ -75,7 +75,8 @@ function App() {
                 About Me
                 <Asterix className='m-3 h-[30px] w-auto md:h-[45px]' />
               </h1>
-              <p className='flex justify-center items-center font-voodoo text-[26px] md:text-5xl md:p-10'>I am a fullstack software engineer focusing mainly on design and front end development. When I am not behind a computer screen I enjoy being creative through many other outlets including art, photography, music, and woodworking. I also enjoy the great outdoors and most of all spending time with my family.</p>
+              <p className='flex justify-center items-center font-voodoo text-[26px] md:text-5xl md:p-10'>I am a fullstack software engineer with a passion for front end development and design. I enjoy being creative through many outlets including software development, art, photography, music, and woodworking. I enjoy spending time with my family along with hiking, fishing, and playing golf.
+            </p>
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
             <div className='bg-pi-red w-[360px] h-[360px] justify-center items-center pt-4 md:w-[650px] md:h-[650px] shadow-md shadow-red-700 lg:hidden'>
@@ -84,7 +85,27 @@ function App() {
                 Skills
                 <Bolt className='m-3 h-[30px] md:h-[45px] w-auto' />
               </h1>
-              <p className='font-voodoo text-[26px] md:text-5xl md:p-10'>JavaScript | HTML | CSS | NodeJs | ExpressJs | MongoDB | React | Tailwind CSS | Bootstrap | Mongoose | Git | Github | NoSQL Databases | Agile Scrum Methodologies</p>
+              <p className='font-voodoo text-[26px] md:text-5xl md:p-10'><div className="flex justify-center">
+            <ul className="flex flex-col items-center">
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Node.JS</li>
+                <li>Express.JS</li>
+                <li>MongoDB</li>
+                <li>React</li>
+            </ul>
+            <ul className="flex flex-col items-center">
+                <li>Tailwind CSS</li>
+                <li>Bootstrap</li>
+                <li>Mongoose</li>
+                <li>Git</li>
+                <li>Github</li>
+                <li>NoSQL Databases</li>
+                <li>Agile Scrum Methodologies</li>
+            </ul>
+        </div>
+        </p>
             </div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
             <div className='bg-pi-purple w-[360px] h-[360px] flex flex-col items-center md:w-[650px] md:h-[650px] shadow-md shadow-purple-500 lg:hidden'>

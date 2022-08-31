@@ -43,22 +43,21 @@ function App() {
                 </div>
               </div> 
             </div> 
-            <div className='w-[360px] h-[360px] md:w-[650px] md:h-[650px] lg:hidden'></div>
             <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
-            <div className='bg-pi-green flex items-center z-40 w-[360px] h-[360px] md:w-[650px] md:h-[650px] shadow-md shadow-green-800 lg:w-[300px] lg:h-[300px] lg:mt-0 lg:pt-5 lg:ml-1 lg:rotate-[4deg]'>
+            <div className='bg-pi-green hidden lg:flex lg:items-center lg:z-40 lg:shadow-md lg:shadow-green-800 lg:w-[300px] lg:h-[300px] lg:mt-0 lg:pt-5 lg:ml-1 lg:rotate-[4deg]'>
               <div className='flex items-center justify-center w-[360px] h-[360px] md:w-[650px] md:h-[650px]'>
                 <div className='flex items-center justify-center w-[360px] h-[360px] md:w-[650px] md:h-[650px] lg:w-[300px] lg:h-[300px]'>
-                  <div className='z-10 sm-hidden md:w-[145px] md:h-[150px] md:-mt-[400px] md:-mr-[80px] md:bg-slate-600 md:opacity-10 md:-rotate-[57deg] md:border-dotted md:border-slate-600 md:border-x-8 lg:w-[120px] lg:h-[75px] lg:-mt-[150px]'>
+                  <div className='z-10 md:w-[145px] md:h-[150px] md:-mt-[400px] md:-mr-[80px] md:bg-slate-600 md:opacity-10 md:-rotate-[57deg] md:border-dotted md:border-slate-600 md:border-x-8 lg:w-[120px] lg:h-[75px] lg:-mt-[150px]'>
                   </div>
-                  <div className='z-0 flex w-[360px] h-[360px] border-white border-x-[25px] bg-joe bg-center bg-contain md:w-[400px] md:h-[500px] justify-center items-center md:-rotate-6 md:flex md:justify-center md:items-center md:shadow-untaped lg:w-[220px] lg:h-[220px] lg:mr-5' alt='Image of Joe Webb'>
+                  <div className='z-0 w-[360px] h-[360px] border-white border-x-[25px] bg-joe bg-center bg-contain md:w-[400px] md:h-[500px] justify-center items-center md:-rotate-6 md:flex md:justify-center md:items-center md:shadow-untaped lg:w-[220px] lg:h-[220px] lg:mr-5' alt='Image of Joe Webb'>
                   </div>
                 </div>
               </div>
             </div>
           </section>
           <section>
-          <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
-          <div className='bg-pi-green flex items-center w-[360px] h-[360px] md:w-[650px] md:h-[650px] md:shadow-md md:shadow-green-800 lg:hidden'>
+            <div className='w-[360px] h-[100px] md:w-[650px] md:h-[200px] lg:hidden'></div>
+            <div className='bg-pi-green flex items-center w-[360px] h-[360px] md:w-[650px] md:h-[650px] md:shadow-md md:shadow-green-800 lg:hidden'>
               <div className='flex items-center justify-center w-[360px] h-[360px] md:w-[650px] md:h-[650px]'>
                 <div className='flex items-center justify-center w-[360px] h-[360px] md:w-[650px] md:h-[650px] lg:w-[300px] lg:h-[300px]'>
                   <div className='z-10 sm-hidden md:w-[145px] md:h-[150px] md:-mt-[400px] md:-mr-[80px] md:bg-slate-600 md:opacity-10 md:-rotate-[57deg] md:border-dotted md:border-slate-600 md:border-x-8 lg:w-[50px] lg:h-[60px]'>

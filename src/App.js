@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <div className='w-screen h-screen flex bg-woodgrain bg-cover overflow-scroll lg:bg-woodgrain lg:bg-cover lg:overflow-hidden'>
+      <div className='w-screen h-screen flex bg-woodgrain bg-cover overflow-scroll overflow-x-hidden lg:bg-woodgrain lg:bg-cover lg:overflow-hidden'>
         <div className=''>
           <section className='w-max h-max flex justify-center'>
             <div className='hidden shadow-md shadow-red-700 lg:bg-pi-red lg:w-[300px] lg:h-[300px] lg:flex lg:justify-center lg:items-center lg:rotate-6'>

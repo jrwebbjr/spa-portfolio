@@ -124,7 +124,7 @@ function App() {
                     </a>
                   </li>
                   <li className='flex justify-evenly items-center hover:font-voodoo-bold hover:text-blue-800 hover:text-4xl md:hover:text-7xl'>
-                    <a href="https://google.com">Retrospective</a>
+                    <a href="https://joe-retrospective.herokuapp.com/">Retrospective</a>
                     <a className='hover:text-blue-800' href="https://github.com/jrwebbjr/Retrospective" target="blank">
                       <div className='hover:text-red-700'>
                         <GithubIcon />

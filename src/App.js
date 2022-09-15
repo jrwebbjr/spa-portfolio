@@ -116,7 +116,7 @@ function App() {
               <p className='flex justify-center items-center font-voodoo text-[26px] md:text-5xl md:p-10'>
                 <ul className='flex flex-col justify-evenly items-center md:gap-8'>
                   <li className='flex justify-evenly items-center hover:font-voodoo-bold hover:text-blue-800 hover:text-4xl md:hover:text-7xl'>
-                    <a href="https://google.com">Apply</a>
+                    <a href="https://ap-ply.herokuapp.com/">Apply</a>
                     <a className='hover:text-blue-800' href="https://github.com/jrwebbjr/interview-tracker-app-backend" target="blank">
                       <div className='hover:text-red-700'>
                         <GithubIcon />

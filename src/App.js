@@ -132,7 +132,7 @@ function App() {
                     </a>
                   </li>
                   <li className='flex justify-evenly items-center hover:font-voodoo-bold hover:text-blue-800 hover:text-4xl md:hover:text-7xl'>
-                  <a href="https://google.com">Emoji Matchup</a>
+                  <a href="">Emoji Matchup</a>
                     <a className='hover:text-blue-800' href="https://github.com/jrwebbjr/Emoji-Matchup" target="blank">
                       <div className='hover:text-red-700'>
                         <GithubIcon />
@@ -159,9 +159,6 @@ function App() {
                   </li>
                   <li className='hover:font-voodoo-bold hover:text-blue-800'>
                     <a href="https://github.com/jrwebbjr" target="blank">Github</a>
-                  </li>
-                  <li className='hover:font-voodoo-bold hover:text-blue-800'>
-                    <a href="https://twitter.com/jrwebbjr" target="blank">Twitter</a>
                   </li>
                   <li className='hover:font-voodoo-bold hover:text-blue-800'>
                     <a href="https://www.instagram.com/iamjrwebb/" target="blank">Instagram</a>
